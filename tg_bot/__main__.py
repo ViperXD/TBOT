@@ -145,7 +145,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                     [[InlineKeyboardButton(text="🎉Group", url="https://t.me/vkp_bots"), InlineKeyboardButton(text="📮Channel", url="https://t.me/vkprojects") ]])
 
     else:
-        update.effective_message.reply_text("HELLO")
+        update.effective_message.reply_text("Hello")
 
 
 # for test purposes
